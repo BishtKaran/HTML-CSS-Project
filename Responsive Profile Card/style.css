@@ -7,14 +7,16 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-body{
+
+body {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #f4f4f4;
 }
-.profile-card{
+
+.profile-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,9 +26,10 @@ body{
     border-radius: 24px;
     padding: 25px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-position: relative;
+    position: relative;
 }
-.profile-card::before{
+
+.profile-card::before {
     content: " ";
     position: absolute;
     top: 0;
@@ -36,6 +39,7 @@ position: relative;
     border-radius: 24px 24px 0 0;
     background-color: #4070f4;
 }
+
 .image {
     position: relative;
     height: 150px;
@@ -45,6 +49,7 @@ position: relative;
     padding: 3px;
     margin-bottom: 10px;
 }
+
 .image .profile-img {
     height: 100%;
     width: 100%;
@@ -52,26 +57,31 @@ position: relative;
     border-radius: 50%;
     border: 3px solid #fff;
 }
-.profile-card .text-data{
+
+.profile-card .text-data {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #333;
 }
-.text-data .name{
+
+.text-data .name {
     font-size: 22px;
     font-weight: 500;
 }
-.text-data .job{
+
+.text-data .job {
     font-size: 15px;
-    font-weight:400;
+    font-weight: 400;
 }
-.profile-card .media-buttons{
-display: flex;
-align-items: center;
-margin-top: 15px;
+
+.profile-card .media-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
 }
-.media-buttons .link{
+
+.media-buttons .link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,15 +91,17 @@ margin-top: 15px;
     width: 34px;
     border-radius: 50%;
     margin: 0 8px;
-background-color: #4070f4;
-text-decoration: none;
+    background-color: #4070f4;
+    text-decoration: none;
 }
-.profile-card .buttons{
-display: flex;
-align-items: center;
-margin-top: 25px;
+
+.profile-card .buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
 }
-.buttons .button{
+
+.buttons .button {
     color: #fff;
     font-size: 14px;
     font-weight: 400;
@@ -97,30 +109,35 @@ margin-top: 25px;
     border-radius: 24px;
     margin: 0 10px;
     padding: 8px 24px;
-background-color: #4070f4;
-cursor: pointer;
-transition: all 0.3 ease;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: all 0.3 ease;
 }
-.buttons .button:hover{
+
+.buttons .button:hover {
     background-color: #0e4bf1;
 
 }
-.profile-card .analytics{
+
+.profile-card .analytics {
     display: flex;
     align-items: center;
     margin-top: 25px;
 }
-.analytics .data{
+
+.analytics .data {
     display: flex;
     align-items: center;
     color: #333;
     padding: 0 20px;
     border-right: 2px solid #e7e7e7;
 }
-.data.i{
+
+.data.i {
     font-size: 18px;
     margin-right: 6px;
 }
-.data:last-child{
+
+.data:last-child {
     border-right: none;
 }
